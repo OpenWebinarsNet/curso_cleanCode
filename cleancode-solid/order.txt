@@ -1,0 +1,5 @@
+42;Eugene Krabs;Krusty Krab, Bikini Bottom;Handle with care
+231;45.6;6;Meat
+562;10.34;100;Cheese
+532;15.33;100;Bread
+666;20.98;150;Coke
