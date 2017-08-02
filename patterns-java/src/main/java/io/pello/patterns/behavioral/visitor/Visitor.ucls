@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.0" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
+  <interface id="1" language="java" name="io.pello.patterns.behavioral.visitor.ArmyUnit" project="patterns" 
+    file="/patterns/src/main/java/io/pello/patterns/behavioral/visitor/ArmyUnit.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="374" y="847"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="2" language="java" name="io.pello.patterns.behavioral.visitor.ArmyUnitBlessingVisitor" project="patterns" 
+    file="/patterns/src/main/java/io/pello/patterns/behavioral/visitor/ArmyUnitBlessingVisitor.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="105" width="162" x="186" y="207"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="3" language="java" name="io.pello.patterns.behavioral.visitor.ArmyUnitVisitor" project="patterns" 
+    file="/patterns/src/main/java/io/pello/patterns/behavioral/visitor/ArmyUnitVisitor.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="259" y="461"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="4" language="java" name="io.pello.patterns.behavioral.visitor.Bowman" project="patterns" 
+    file="/patterns/src/main/java/io/pello/patterns/behavioral/visitor/Bowman.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="141" width="165" x="186" y="624"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="io.pello.patterns.behavioral.visitor.Army" project="patterns" 
+    file="/patterns/src/main/java/io/pello/patterns/behavioral/visitor/Army.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="499" y="469"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="io.pello.patterns.behavioral.visitor.ArmyUnitCurseVisitor" project="patterns" 
+    file="/patterns/src/main/java/io/pello/patterns/behavioral/visitor/ArmyUnitCurseVisitor.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="105" width="147" x="388" y="207"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="io.pello.patterns.behavioral.visitor.Knight" project="patterns" 
+    file="/patterns/src/main/java/io/pello/patterns/behavioral/visitor/Knight.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="141" width="165" x="391" y="624"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="io.pello.patterns.behavioral.visitor.VisitorClient" project="patterns" 
+    file="/patterns/src/main/java/io/pello/patterns/behavioral/visitor/VisitorClient.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="754" y="355"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <dependency id="9">    
+    <bendpoint x="604" y="352"/>    
+    <bendpoint x="604" y="497"/>    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <realization id="10">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <dependency id="11">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="12">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <realization id="13">    
+    <bendpoint x="195" y="352"/>    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <realization id="14">    
+    <bendpoint x="296" y="352"/>    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <dependency id="15">    
+    <bendpoint x="340" y="352"/>    
+    <bendpoint x="338" y="497"/>    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="16">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <association id="17">    
+    <bendpoint x="583" y="497"/>    
+    <bendpoint x="586" y="624"/>    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="18" name="armyUnits"/>      
+      <multiplicity id="19" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="20">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <realization id="21">    
+    <bendpoint x="625" y="497"/>    
+    <bendpoint x="625" y="624"/>    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <dependency id="22">    
+    <bendpoint x="401" y="497"/>    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <dependency id="23">    
+    <bendpoint x="155" y="352"/>    
+    <bendpoint x="155" y="497"/>    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="24">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="25">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="26">    
+    <bendpoint x="380" y="497"/>    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <realization id="27">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <dependency id="28">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="29">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <dependency id="30">    
+    <bendpoint x="155" y="624"/>    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="31">    
+    <bendpoint x="319" y="352"/>    
+    <bendpoint x="359" y="497"/>    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <classifier-display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
